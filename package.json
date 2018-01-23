@@ -1,0 +1,28 @@
+{
+  "name": "checkifdown",
+  "version": "0.1.0",
+  "description": "A simple utility to check if a website is down at regular intervals.",
+  "main": "checkifdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node checkifdown.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinaryTerminal/checkifdown.git"
+  },
+  "keywords": [
+    "downtime",
+    "uptime",
+    "checker"
+  ],
+  "author": "Binary Terminal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinaryTerminal/checkifdown/issues"
+  },
+  "homepage": "https://github.com/BinaryTerminal/checkifdown#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
